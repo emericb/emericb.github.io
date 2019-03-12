@@ -123,14 +123,19 @@ canvas {
 
 .describe_skill {
     margin-top: 2rem;
-    border: 3px solid black;
     border-radius: 7px;
-    margin-left: 12rem;
+    /*margin-left: 12rem;*/
     width: 12rem;
     padding: 2%;
-    color: black;
-    background-color: #00000036;
-  }
+    color: white;
+    background-color: #1b242f;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.skill_box {
+  display: flex;
+  justify-content: center;
+}
 
 
 .button {
